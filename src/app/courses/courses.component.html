@@ -1,0 +1,16 @@
+<h3>{{ title }}</h3>
+<form>
+  <div class="row">
+    <div class="form-group col-md-3">
+      <input type="text" [(ngModel)]="courseName" class="form-control" placeholder="Enter Course Name" />
+    </div>
+    <div class="col-md-3">
+      <button type="button" class="btn btn-primary" (click)="addCourse()"> Add </button>
+    </div>
+  </div>
+</form>
+<ul>
+  <li *ngFor="let course of courses">
+    {{ course }}
+  </li>
+</ul>
