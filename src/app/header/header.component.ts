@@ -11,7 +11,7 @@ export class HeaderComponent {
   // TODO: Move this to service;
   menuItems = [{
     name: 'Courses',
-    link: '#'
+    link: '/courses'
   }];
 
 }
