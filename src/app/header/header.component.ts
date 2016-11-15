@@ -9,11 +9,4 @@ import { ROUTER_DIRECTIVES } from '@angular/router';
 })
 export class HeaderComponent {
   title = 'Course Management';
-
-  // TODO: Move this to service;
-  menuItems = [{
-    name: 'Courses',
-    routeName: 'courses'
-  }];
-
 }
